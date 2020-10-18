@@ -1,0 +1,270 @@
+:root {
+  --main-bg-color: #FFFFFF;
+  --issabeline-bg-color: #EEEEEE;
+  --spaceCadet-bg-color: #17255A;
+  --cbGreen-bg-color: #03CEA4;
+  --saffron-bg-color: #EAC435;
+  --darkPurple-bg-color: #2D1E2F;
+  --gunMetalbg-bg-color: #273043;
+  --vividTang-bg-color: #F5772F;
+  --sunsetOrange-bg-color: #E13F29;
+  --grey-bg-color: #C4C4C4;
+}
+
+/* General styles */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var( --main-bg-color);
+  font-family: "Roboto", "Nunito";
+}
+
+
+.genesys__header {
+ width: 100%;
+ height: 10rem;
+ display: flex;
+ justify-content: space-between;
+ padding-left: 5rem;
+ padding-top: 3rem;
+ /* position: fixed; */
+}
+
+.navbar-items-1 {
+ display: flex;
+ justify-content: space-evenly;
+ padding-right: 15rem;
+}
+
+ul li {
+ padding: 1.5rem;
+ font-size: 1.5rem;
+ list-style-type: none;
+ color: #000;
+}
+
+a:link{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #000;
+}
+
+.genesys__navbar-right {
+ padding-right: 3rem;
+}
+
+.genesys__navbar-right span {
+ font-size: 1.2rem;
+}
+
+span .build {
+ font-size: 20rem;
+}
+
+.devstudio {
+ margin-left: 2rem;
+ padding: .5rem;
+ background: none;
+ border-radius: .5rem;
+}
+
+/* learnable styles */
+.learnable__navbar {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var( --spaceCadet-bg-color);
+}
+
+/* main contents styles */
+
+/* comingsoon */
+.learnable__commingsoon {
+  width: 100%;
+  height: 15.5rem;
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: var(--spaceCadet-bg-color);
+  background-color: var(--saffron-bg-color);
+}
+
+.comingsoon__content--1 {
+  width: 50%;
+  height: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-left: 3rem;
+  padding-top: 5rem;
+}
+
+.comingsoon__content--1 h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.comingsoon__content--1 p {
+  font-size: 1rem;
+}
+
+.comingsoon__content--2 {
+  width: 50%;
+  height: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 5rem;
+}
+
+.comingsoon__content--2 h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.comingsoon__content--2 p {
+  font-size: 1rem;
+}
+
+/* Subscribe */
+.learnable__subscribe {
+  width: 100%;
+  height: 19rem;
+  background-color: var(--saffron-bg-color); 
+  display: flex;
+}
+
+.subscribe--arrow-img {
+  width: 10%;
+  height: 100%;
+}
+
+.subscribe--text-content {
+  width: 90%;
+  height: 100%;
+}
+
+.subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 10rem;
+}
+
+.subscribe--text-content h1 {
+  font-size: 2.5rem;
+}
+
+.subscribe--email-vpp {
+   font-size: 1.5rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+hr {
+  width: 20rem;
+  background-color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+/* footer styles */
+.genesys__footer {
+ width: 100%;
+ height: 35rem;
+ /* background-color: orangered; */
+}
+
+.footer__content {
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer__left ul li a:link {
+ text-decoration: underline;
+ font-size: 1.3rem;
+ color: var(--spaceCadet-bg-color);
+}
+
+.underline a:link {
+ text-decoration: underline;
+ font-size: 1.3rem;
+ color: var(--spaceCadet-bg-color);
+}
+
+.studio {
+  padding-top: 1.5rem;
+}
+
+.touch {
+  margin-top: 5rem;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer__img {
+ width: 15rem;
+ height: 15rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/footer.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.footer__link-1 {
+  padding-top: 3.3rem;
+}
+
+.footer__item-1, .footer__right {
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-right: 5rem;
+}
+
+.footer__remark {
+  padding-top: 5rem;
+  padding-left: 3.5rem;
+}
+
+.touch {
+  padding-top: 2.5rem;
+}
+
+.footer__copyright {
+ text-align: center;
+}
+
+.copy--right {
+ text-transform: uppercase;
+}
+
+.ps {
+  display: inline-block;
+   padding-left: 1.5rem;
+}
+

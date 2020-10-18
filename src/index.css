@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #FFFFFF;
+  --issabeline-bg-color: #EEEEEE;
+  --spaceCadet-bg-color: #17255A;
+  --cbGreen-bg-color: #03CEA4;
+  --saffron-bg-color: #EAC435;
+  --darkPurple-bg-color: #2D1E2F;
+  --gunMetalbg-bg-color: #273043;
+  --vividTang-bg-color: #F5772F;
+  --sunsetOrange-bg-color: #E13F29;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var( --main-bg-color);
+}
