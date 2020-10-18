@@ -2,33 +2,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import '../styles/index.css'
+import Navbar from "../../components/navbar/Navbar";
+import '../../styles/index.css'
 
 const Homepage = ()  => {
  return (
   <>
-   <header className="genesys__header">
-    <div className="genesys__logo">
-     <img className="logo" src="/img/logo.png" all="Genesys logo"/>
-    </div>
-   
-     <nav className="genesys__navbar">
-      <ul className="navbar-items-1">
-       <li><a href="#">learnable</a></li>
-       <li><a href="#">agora</a></li>
-       <li><a href="#">startzone</a></li>
-       <li><a href="#">about</a></li>
-       <li><a href="#">contact</a></li>
-      </ul>
-     </nav>
-     <div className="genesys__navbar-right">
-      <span className="build">build a product with</span>
-      <button className="devstudio">
-       <a href="#">devstudio</a>
-      </button>
-     </div>
-   </header>
-
+    <Navbar />
    <main className="genesys__main--content">
     <section className="genesys__about--section">
      <div className="about--text-content">
@@ -51,7 +31,7 @@ const Homepage = ()  => {
      <div className="learnable--text-content">
       <h1 className="learnable--main-text">Learnable</h1>
       <p className="learnable-sub-text">
-       Every year, young Nigerians are launching new careers in the technology 
+       Every year, young Nigerians are launching new careers in the technology
        <br /> industry. Find out how Genesys is helping them do it.
       </p>
       <span><a href="#" className="learn-more">learn more</a></span>
@@ -62,8 +42,8 @@ const Homepage = ()  => {
      <div className="agora--text-content">
       <h1 className="agora--main-text">Agora</h1>
       <p className="agora-sub-text">
-       We are reimagining the workplace and how people work. 
-       Find out how our <br /> 
+       We are reimagining the workplace and how people work.
+       Find out how our <br />
        co-working spaces can help you enjoy the work that you do.
       </p>
       <span><a href="#" className="learn-more">learn more</a></span>
@@ -76,7 +56,7 @@ const Homepage = ()  => {
      <div className="startzone--text-content">
       <h1 className="startzone--main-text">StartZone</h1>
       <p className="startzone-sub-text">
-       The business environment is harsh for early-stage businesses. 
+       The business environment is harsh for early-stage businesses.
        We can help you <br /> rise above it all.
       </p>
       <span><a href="#" className="learn-more">learn more</a></span>
@@ -99,7 +79,7 @@ const Homepage = ()  => {
           <div className="box--4"></div>
            <p className="pink"><a href="#">Pink summer <br/> of code</a></p>
         </div>
-        
+
       </div>
       <div className="otherThings__text">
         <h1 className="otherThings__h1">Other things we <br/>do</h1>
@@ -111,7 +91,7 @@ const Homepage = ()  => {
      <div className="bestTeam--text-content">
       <h1 className="bestTeam--main-text">The best team in the world</h1>
       <p className="bestTeam-sub-text">
-       We work with the most amazing people our industry has to offer. <br/> 
+       We work with the most amazing people our industry has to offer. <br/>
        They are really passionate about making a difference
       </p>
       <span><a href="#" className="learn-more">See team</a></span>
@@ -145,12 +125,12 @@ const Homepage = ()  => {
       <li><a href="#" className="footer__link">apply your knowledge</a></li>
       <li><a href="#" className="footer__link">faq</a></li>
      </ul>
-     
+
      </div>
      <div className="footer__middle">
       <p className="footer__item-1">
-        Our Local Campus center: Kilometer 7, 
-        Enugu/Port<br/> Harcourt, Expressway, 
+        Our Local Campus center: Kilometer 7,
+        Enugu/Port<br/> Harcourt, Expressway,
         Centenary City, Enugu.<br/>  Nigeria
       </p>
       <p className="underline touch"><a href="#">get in touch</a></p>
@@ -160,8 +140,8 @@ const Homepage = ()  => {
       <div className="footer__img"></div>
         <div className="footer__remark">
           <p className="footer__item-2">
-            Learnable is proud to be <br/> 
-            a collaborative effort of <br/>  
+            Learnable is proud to be <br/>
+            a collaborative effort of <br/>
             all the arms of our <br/>  product team
           </p>
           <p className="underline studio"><a href="#">head to devstudio</a></p>

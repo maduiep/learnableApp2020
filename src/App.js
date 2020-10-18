@@ -1,18 +1,21 @@
-/* eslint-disable react/jsx-no-undef */
-import React, { Component } from 'react'
-// import Homepage from './pages/index'
-import Learnable from './pages/Learnable'
-// import Developer from './pages/Developer'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Homepage from "./pages/Home";
+import Learnable from "./pages/Learnable/Learnable";
 
-class App extends Component {
-  render() {
-      return (
-      <div className="App">
-        <Learnable />
-      </div>
+// pages import
+
+const App = () => {
+    return (
+        <main id="app">
+            <Router>
+                <Switch>
+                    <Route path="/" component={Homepage} />
+                    <Route path="/learnable" component={Learnable} />
+                </Switch>
+            </Router>
+        </main>
     );
-  }
-  
-}
+};
 
 export default App;

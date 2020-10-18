@@ -25,56 +25,6 @@ body {
   font-family: "Roboto", "Nunito";
 }
 
-/* Header styles */
-
-.genesys__header {
- width: 100%;
- height: 10rem;
- display: flex;
- justify-content: space-between;
- padding-left: 5rem;
- padding-top: 3rem;
- /* position: fixed; */
-}
-
-.navbar-items-1 {
- display: flex;
- justify-content: space-evenly;
- padding-right: 15rem;
-}
-
-ul li {
- padding: 1.5rem;
- font-size: 1.5rem;
- list-style-type: none;
- color: #000;
-}
-
-a:link{
- text-decoration: none;
- text-transform: uppercase;
- color: #000;
-}
-
-.genesys__navbar-right {
- padding-right: 3rem;
-}
-
-.genesys__navbar-right span {
- font-size: 1.2rem;
-}
-
-span .build {
- font-size: 20rem;
-}
-
-.devstudio {
- margin-left: 2rem;
- padding: .5rem;
- background: none;
- border-radius: .5rem;
-}
-
 /* About styles */
 
 .genesys__about--section {
@@ -313,7 +263,7 @@ span .build {
   height: 15rem;
   background-image: url('/img/boy.png');
   background-size: cover;
- 
+
 }
 
 .box--3 {
@@ -409,7 +359,7 @@ span .build {
  background-color: var(--main-bg-color);
  background-image: url('/img/arrow-up.png');
  background-repeat: no-repeat, repeat;
- background-position: center; 
+ background-position: center;
 }
 
 .subscribe--text-content {
@@ -441,7 +391,7 @@ hr {
 
 .subscribe__button {
   margin-left: 10rem;
-} 
+}
 
 .subscribe--btn {
   padding: .5rem;
@@ -492,7 +442,7 @@ hr {
  background-color: var(--grey-bg-color);
  background-image: url('/img/footer.png');
  background-repeat: no-repeat, repeat;
- background-position: center; 
+ background-position: center;
 }
 
 .footer__link-1 {
