@@ -2,8 +2,6 @@ import React from 'react';
 import { bool, string } from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import './nav.styles.css';
-
 const Nav = ({ hasLinks, activeLink }) => {
 	return (
 		<>

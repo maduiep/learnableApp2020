@@ -12,7 +12,7 @@ const Developer = () => {
     <div className="genesys__logo">
      <img className="logo" src="/img/logo.png" all="Genesys Logo"/>
     </div>
-   
+
      <nav className="genesys__navbar">
       <ul className="navbar-items-1">
        <li><a href="#">learnable</a></li>
@@ -29,7 +29,7 @@ const Developer = () => {
       </button>
      </div>
    </header>
-  
+
    <nav className="learnable__navbar">
    </nav>
 
@@ -38,7 +38,7 @@ const Developer = () => {
       <div className="comingsoon__content--1">
         <h1>Coming soon: Learnable ‘20</h1>
         <p>
-          We've started taking in applications for the next batch of learnable <br/> 
+          We've started taking in applications for the next batch of learnable <br/>
           interns. Applications are on till the 21st of Febuary
         </p>
       </div>
@@ -51,18 +51,18 @@ const Developer = () => {
     </section>
 
     <section className="learnable__subscribe">
-       <diV className="subscribe--arrow-img"></diV>
+       <div className="subscribe--arrow-img"></div>
        <div className="subscribe--text-content">
 
-       <diV className="subscribe--text">
+       <div className="subscribe--text">
         <h1>Stay up to date on what we <br/> are doing and new learning  <br/> opportunities</h1>
-       </diV>
+       </div>
 
-       <diV className="subscribe--email-vpp">
+       <div className="subscribe--email-vpp">
         <p className="email-add">Your email</p>
         <hr/>
         <p className="vpp">View Privacy Policy</p>
-       </diV>
+       </div>
 
        <div className="subscribe__button">
         <button className="subscribe--btn">subscribe</button>
@@ -80,12 +80,12 @@ const Developer = () => {
       <li><a href="#" className="footer__link">apply your knowledge</a></li>
       <li><a href="#" className="footer__link">faq</a></li>
      </ul>
-     
+
      </div>
      <div className="footer__middle">
       <p className="footer__item-1">
-        Our Local Campus center: Kilometer 7, 
-        Enugu/Port<br/> Harcourt, Expressway, 
+        Our Local Campus center: Kilometer 7,
+        Enugu/Port<br/> Harcourt, Expressway,
         Centenary City, Enugu.<br/>  Nigeria
       </p>
       <p className="underline touch"><a href="#">get in touch</a></p>
@@ -95,8 +95,8 @@ const Developer = () => {
       <div className="footer__img"></div>
         <div className="footer__remark">
           <p className="footer__item-2">
-            Learnable is proud to be <br/> 
-            a collaborative effort of <br/>  
+            Learnable is proud to be <br/>
+            a collaborative effort of <br/>
             all the arms of our <br/>  product team
           </p>
           <p className="underline studio"><a href="#">head to devstudio</a></p>

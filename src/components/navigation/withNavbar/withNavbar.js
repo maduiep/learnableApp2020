@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
-import Navbar from '../navbar/Navbar.jsx'
+import React from 'react';
+import Navbar from '../Navbar/Navbar'
 
 const withNavbar = (Component, { navProps, componentProps }) => (
-  <Fragment>
+  <>
     <Navbar {...navProps} />
     <Component {...componentProps} />
-  </Fragment>
+  </>
 )
 
 export default withNavbar;

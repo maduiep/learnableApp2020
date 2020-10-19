@@ -2,8 +2,6 @@ import React from 'react';
 import { bool, string } from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import './navbar.styles.css';
-
 const Navbar = ({ hasLinks, activeLink }) => {
 	return (
 		<>

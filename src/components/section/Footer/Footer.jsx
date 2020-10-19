@@ -2,8 +2,6 @@ import React from 'react';
 import { bool, string } from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import './footer.styles.css';
-
 const Footer = ({ hasLinks, activeLink }) => {
 	return (
 		<>
@@ -25,7 +23,7 @@ const Footer = ({ hasLinks, activeLink }) => {
 							Enugu/Port<br/> Harcourt, Expressway,
 							Centenary City, Enugu.<br/>  Nigeria
 						</p>
-						<p className="underline touch"><a href="#">get in touch</a></p>
+						<p className="underline touch"><Link to="/">get in touch</Link></p>
 					</div>
 
 					<div className="footer__right">
@@ -36,19 +34,19 @@ const Footer = ({ hasLinks, activeLink }) => {
 								a collaborative effort of <br/>
 								all the arms of our <br/>  product team
 							</p>
-							<p className="underline studio"><a href="#">head to devstudio</a></p>
+							<p className="underline studio"><Link to="/">head to devstudio</Link></p>
 						</div>
 					</div>
 				</div>
 				<div className="footer__end">
 
 					<ul className="footer__icons">
-						<li className="center"><a href="#"></a></li>
-						<li className="center"><a href="#"></a></li>
-						<li className="center"><a href="#"></a></li>
-						<li className="center"><a href="#"></a></li>
-						<li className="center"><a href="#"></a></li>
-						<li className="center"><a href="#"></a></li>
+						<li className="center"><Link to="/"></Link></li>
+						<li className="center"><Link to="/"></Link></li>
+						<li className="center"><Link to="/"></Link></li>
+						<li className="center"><Link to="/"></Link></li>
+						<li className="center"><Link to="/"></Link></li>
+						<li className="center"><Link to="/"></Link></li>
 					</ul>
 
 					<div className="footer__copyright">

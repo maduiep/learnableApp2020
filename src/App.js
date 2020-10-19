@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Homepage from "./pages/Home";
+import Homepage from "./pages/Home/Home";
 import Learnable from "./pages/Learnable/Learnable";
 
 // pages import
@@ -10,8 +10,8 @@ const App = () => {
         <main id="app">
             <Router>
                 <Switch>
-                    <Route path="/" component={Homepage} />
-                    <Route path="/learnable" component={Learnable} />
+                    <Route path="/" component={Learnable} />
+                    <Route path="/learnable" exact component={Homepage} />
                 </Switch>
             </Router>
         </main>

@@ -135,7 +135,7 @@ span .build {
 .learnable__subscribe {
   width: 100%;
   height: 19rem;
-  background-color: var(--saffron-bg-color); 
+  background-color: var(--saffron-bg-color);
   display: flex;
 }
 
@@ -155,7 +155,7 @@ span .build {
  background-color: var(--main-bg-color);
  background-image: url('/img/arrow-up.png');
  background-repeat: no-repeat, repeat;
- background-position: center; 
+ background-position: center;
 }
 
 .subscribe--text-content {
@@ -191,7 +191,7 @@ hr {
   text-transform: uppercase;
 }
 
-/* footer styles */
+/* Footer styles */
 .genesys__footer {
  width: 100%;
  height: 35rem;
@@ -233,7 +233,7 @@ hr {
  background-color: var(--grey-bg-color);
  background-image: url('/img/footer.png');
  background-repeat: no-repeat, repeat;
- background-position: center; 
+ background-position: center;
 }
 
 .footer__link-1 {
