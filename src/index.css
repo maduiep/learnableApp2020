@@ -833,6 +833,128 @@ header .devstudio a {
   font-size: 1.5rem;
 }
 
+/* Developer Page Styles */
+.learnable__softdesign {
+  width: 100%;
+  height: 175rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.softdesign__content-1 {
+  width: 90%;
+  height: 25rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.softdesign__content-1 h1 {
+  font-size: 6rem;
+  color: var(--spaceCadet-bg-color)
+}
+
+.content--img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  margin-right: 5rem;
+  background-image: url("/img/cohort.png");
+  background-size: cover;
+  background-color: var(--cbGreen-bg-color);
+}
+
+.content--img--d {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  margin-right: 5rem;
+  background-image: url("/img/cohort.png");
+  background-size: cover;
+  background-color: var(--vividTang-bg-color);
+}
+
+.softdesign__content-2 {
+  width: 90%;
+  height: 22rem;
+  margin-top: 5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.softdesign__content-2 p {
+  font-size: 1.5rem;
+}
+
+.softdesign__content-3 {
+  width: 90%;
+  height: 17.5rem;
+  margin-top: 7rem;
+}
+
+.softdesign__content-3 p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--cbGreen-bg-color);
+}
+
+.softdesign__content-4 {
+  width: 64rem;
+  height: 42.5rem;
+  margin-top: 5rem;
+  background-image: url("/img/code.png");
+  background-size: cover;
+  background-color: var(--cbGreen-bg-color);
+}
+
+.softdesign__content-5 {
+  width: 32rem;
+  height: 33.5rem;
+  margin-top: 5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.softdesign__content-5 h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.softdesign__content-5 {
+  font-size: 1.3rem;
+}
+
+.text-color {
+  color: var(--spaceCadet-bg-color);
+}
+
+.softdesign__content-4--d {
+  width: 64rem;
+  height: 42.5rem;
+  margin-top: 15rem;
+  background-image: url("/img/design.png");
+  background-size: cover;
+}
+.learnable__softdesign--d {
+  width: 100%;
+  height: 185rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.softdesign__content-3--d {
+  width: 90%;
+  height: 17.5rem;
+  margin-top: 7rem;
+}
+
+.softdesign__content-3--d p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--vividTang-bg-color);
+}
+
 /* Classrooms */
 
 .learnable__classrooms {
@@ -992,6 +1114,34 @@ header .devstudio a {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/* FAQ MAIN PAGE */
+.learnable__faqpage {
+  width: 100%;
+  height: 170rem;   
+}
+
+.faq__head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.faq__head h1 {
+  font-size: 5rem;
+  color: var(--spaceCadet-bg-color)
+}
+
+.faqpage__image {
+  height: 21rem;
+  width: 35rem;
+  background-image: url("/img/faq.png");
+  background-size: cover;
+}
+
+
+
 
 /* Faq */
 
@@ -1233,7 +1383,7 @@ hr {
 
 /* Footer styles  */
 
-/* .genesys__footer {
+.genesys__footer {
   width: 100%;
   height: 35rem;
 }
@@ -1243,6 +1393,20 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 4rem 4rem 0 4rem;
+}
+
+footer ul {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+footer ul li{
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+footer li a {
+  text-decoration: underline;
 }
 
 .footer__links li {
@@ -1309,223 +1473,6 @@ hr {
 .ps {
   display: inline-block;
   padding-left: 1.5rem;
-} */
-
-
-
-
-
-
-
-/* footer styles  */
-
-.genesys__footer {
- width: 100%;
- height: 35rem;
-}
-
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4rem 4rem 0 4rem;
-}
-
-.footer__links li {
-  list-style: none;
-}
-
-.footer__links a {
-  text-decoration: underline;
-  text-transform: uppercase;
-  opacity: 0.75;
-  font-size: 1.5rem;
-  color: var(--spaceCadet-bg-color);
-}
-
-.footer__links li:not(:first-child) {
-  padding-top: 1rem;
-}
-
-.footer__item-1 {
-  font-size: 1.3rem;
-}
-
-.underline a {
- text-decoration: underline;
- text-transform: uppercase;
- font-size: 1.5rem;
- color: var(--spaceCadet-bg-color);
-}
-
-.footer__img {
- width: 15rem;
- height: 15rem;
- background-image: url('/img/footer.png');
- background-repeat: no-repeat, repeat;
- background-position: center; 
-}
-
-.touch, .studio {
-  padding-top: 5rem;
-}
-
-.footer__right {
-  display: flex;
-}
-
-.footer__item-2 {
-  padding-top: 3rem;
-  font-size: 1.3rem;
-}
-
-.footer__remark {
-  padding-left: 5rem;
-}
-
-.footer__copyright {
- text-align: center;
-}
-
-.copy--right {
- text-transform: uppercase;
-}
-
-.ps {
-  display: inline-block;
-   padding-left: 1.5rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Developer Page Styles */
-.learnable__softdesign {
-  width: 100%;
-  height: 175rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.softdesign__content-1 {
-  width: 90%;
-  height: 25rem;
-  margin-top: 5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.softdesign__content-1 h1 {
-  font-size: 6rem;
-  color: var(--spaceCadet-bg-color)
-}
-
-.content--img {
-  height: 25rem;
-  width: 25rem;
-  border-radius: 50%;
-  margin-right: 5rem;
-  background-image: url("/img/cohort.png");
-  background-size: cover;
-  background-color: var(--cbGreen-bg-color);
-}
-
-.content--img--d {
-  height: 25rem;
-  width: 25rem;
-  border-radius: 50%;
-  margin-right: 5rem;
-  background-image: url("/img/cohort.png");
-  background-size: cover;
-  background-color: var(--vividTang-bg-color);
-}
-
-.softdesign__content-2 {
-  width: 90%;
-  height: 22rem;
-  margin-top: 5rem;
-  color: var(--spaceCadet-bg-color);
-}
-
-.softdesign__content-2 p {
-  font-size: 1.5rem;
-}
-
-.softdesign__content-3 {
-  width: 90%;
-  height: 17.5rem;
-  margin-top: 7rem;
-}
-
-.softdesign__content-3 p {
-  font-size: 4rem;
-  font-weight: bold;
-  color: var(--cbGreen-bg-color);
-}
-
-.softdesign__content-4 {
-  width: 64rem;
-  height: 42.5rem;
-  margin-top: 5rem;
-  background-image: url("/img/code.png");
-  background-size: cover;
-  background-color: var(--cbGreen-bg-color);
-}
-
-.softdesign__content-5 {
-  width: 32rem;
-  height: 33.5rem;
-  margin-top: 5rem;
-  color: var(--spaceCadet-bg-color);
-}
-
-.softdesign__content-5 h1{
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
-
-.softdesign__content-5 {
-  font-size: 1.3rem;
-}
-
-.text-color {
-  color: var(--spaceCadet-bg-color);
-}
-
-.softdesign__content-4--d {
-  width: 64rem;
-  height: 42.5rem;
-  margin-top: 15rem;
-  background-image: url("/img/design.png");
-  background-size: cover;
-}
-.learnable__softdesign--d {
-  width: 100%;
-  height: 185rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.softdesign__content-3--d {
-  width: 90%;
-  height: 17.5rem;
-  margin-top: 7rem;
-}
-
-.softdesign__content-3--d p {
-  font-size: 4rem;
-  font-weight: bold;
-  color: var(--vividTang-bg-color);
-}
