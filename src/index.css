@@ -1,36 +1,15 @@
 :root {
-  --main-bg-color: #ffffff;
-  --issabeline-bg-color: #eeeeee;
-  --spaceCadet-bg-color: #17255a;
-  --cbGreen-bg-color: #03cea4;
-  --saffron-bg-color: #eac435;
-  --darkPurple-bg-color: #2d1e2f;
+  --main-bg-color: #FFFFFF;
+  --issabeline-bg-color: #EEEEEE;
+  --spaceCadet-bg-color: #17255A;
+  --cbGreen-bg-color: #03CEA4;
+  --saffron-bg-color: #EAC435;
+  --darkPurple-bg-color: #2D1E2F;
   --gunMetalbg-bg-color: #273043;
-  --vividTang-bg-color: #f5772f;
-  --sunsetOrange-bg-color: #e13f29;
-  --grey-bg-color: #c4c4c4;
+  --vividTang-bg-color: #F5772F;
+  --sunsetOrange-bg-color: #E13F29;
+  --grey-bg-color: #C4C4C4;
 }
-
-/* General styles */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--main-bg-color);
-  font-family: "Roboto", "Nunito";
-}
-
-@media screen and (max-width: 930px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
 /* Media Query */
 /* 0 - 600px ==> Phone
   600 - 900px ==> Tablet portrait
@@ -38,6 +17,26 @@ body {
   1200 1800px ==> is where our normal styles apply
   a800px+ ===> Big desktop
 */
+
+/* General styles */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var( --main-bg-color);
+  font-family: "Roboto", "Nunito";
+}
+
+@media screen and (max-width: 930px) {
+ body {
+   overflow-x: hidden;
+ }
+}
 
 /* Header styles */
 
@@ -49,9 +48,10 @@ header {
   width: 100%;
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
+  color: var(--spaceCadet-bg-color);
 }
 
-@keyframes fadein {
+@keyframes fadein{
   100% {
     opacity: 1;
   }
@@ -63,58 +63,56 @@ header {
 
 header ul {
   display: flex;
+  list-style: none;
   margin-right: -0.9375rem;
 }
 
 header li {
   margin: 0 2rem;
+  font-size: 2rem;
 }
 
-.navbar__items--1 li{
-  list-style: none;
-}
-
-.navbar__items--1 a{
-  text-decoration: none;
+header ul li {
   text-transform: uppercase;
   opacity: 0.75;
   font-size: 1.5rem;
 }
 
-.navbar__items--1 a:hover {
-  opacity: 1;
+header ul a {
+  text-decoration: none;
 }
 
-.genesys__item--right {
-  display: flex;
-}
-
-.genesys__item--right a.btn {
+header .devstudio {
   border-radius: 0.25rem;
   border: solid 1px #000;
   text-transform: uppercase;
-  text-decoration: none;
   text-align: center;
   opacity: 1;
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  font-size: 1.2rem;
+  padding: .5rem;
 }
 
+header .devstudio a {
+  text-decoration: none;
+  background-color: none;
+}
+
+
 @media screen and (max-width: 1100px) {
-  .genesys__item--right a.btn {
+  header .devstudio a {
     font-size: 1rem;
-    padding: 0.25rem;
+    padding: .25rem;
   }
-  .navbar__items--1 a {
+  .devstudio a {
     font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 930px) {
-  .genesys__item--right {
+  header .genesys__item--right {
     display: none;
   }
-  .navbar__items--1 {
+  header .genesys__item--right {
     padding-right: 5rem;
   }
 }
@@ -125,41 +123,48 @@ header li {
   }
 }
 
+
 /* learnable styles */
 .learnable__navbar {
   width: 100%;
   height: 3.5rem;
+  background-color: var( --spaceCadet-bg-color);
+}
+
+.learnable__navbar ul {
   display: flex;
   align-items: center;
+  padding-top: 1rem;
   justify-content: space-evenly;
-  background-color: var(--spaceCadet-bg-color);
 }
+
 
 .learnable__navbar a {
   text-decoration: none;
   text-transform: uppercase;
   opacity: 0.75;
   font-size: 1rem;
-  color: var(--main-bg-color);
+  color: var(--main-bg-color)
 }
 
 @media screen and (max-width: 600px) {
   .learnable__navbar {
     display: none;
-  }
+  } 
 }
 
-.journal--text a {
+.journal--text a{
   text-decoration: underline;
   text-transform: uppercase;
   opacity: 0.75;
   font-size: 1.3rem;
-  color: var(--cbGreen-bg-color);
+  color: var(--cbGreen-bg-color)
 }
 
 .learnable__navbar li {
   list-style: none;
 }
+
 
 /* main contents styles */
 
@@ -201,7 +206,7 @@ header li {
   padding-top: 5rem;
 }
 
-.comingsoon__content--2 h1 {
+.comingsoon__content--2 h1{
   font-size: 2.5rem;
   font-weight: bold;
   padding-top: 1rem;
@@ -229,10 +234,10 @@ header li {
     margin-right: 0rem;
     padding-top: 0rem;
   }
-  .comingsoon__content--2 {
-    width: 100%;
-    padding-top: 2rem;
-  }
+  .comingsoon__content--2{
+     width: 100%;
+     padding-top: 2rem;
+   }
 }
 
 .learnable__everything {
@@ -1228,7 +1233,7 @@ hr {
 
 /* Footer styles  */
 
-.genesys__footer {
+/* .genesys__footer {
   width: 100%;
   height: 35rem;
 }
@@ -1304,60 +1309,104 @@ hr {
 .ps {
   display: inline-block;
   padding-left: 1.5rem;
+} */
+
+
+
+
+
+
+
+/* footer styles  */
+
+.genesys__footer {
+ width: 100%;
+ height: 35rem;
 }
 
-/* .genesys__subscribe--section {
- background-color: var(--cbGreen-bg-color);
- display: flex;
- height: 25rem;
-}
-
-.subscribe--arrow-img {
- width: 10%;
- height: 100%;
- background-color: var(--main-bg-color);
- background-image: url('/img/arrow-up.png');
- background-repeat: no-repeat, repeat;
- background-position: center;
-}
-
-.subscribe--text-content {
+.footer__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 4rem 4rem 0 4rem;
 }
 
-.subscribe--text {
-  margin-left: 5rem;
-  font-size: 2rem;
-  font-weight: bold;
+.footer__links li {
+  list-style: none;
 }
 
-.subscribe--email-vpp {
-  margin-left: 15rem;
-  font-size: 1.3rem;
+.footer__links a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  opacity: 0.75;
+  font-size: 1.5rem;
+  color: var(--spaceCadet-bg-color);
 }
 
-.email-add, .vpp {
-  padding-bottom: 1rem;
+.footer__links li:not(:first-child) {
   padding-top: 1rem;
 }
 
-hr {
-  width: 20rem;
-  color: var(--gunMetalbg-bg-color) !important;
+.footer__item-1 {
+  font-size: 1.3rem;
 }
 
-.subscribe__button {
-  margin-left: 10rem;
+.underline a {
+ text-decoration: underline;
+ text-transform: uppercase;
+ font-size: 1.5rem;
+ color: var(--spaceCadet-bg-color);
 }
 
-.subscribe--btn {
-  padding: .5rem;
-  background: none;
-  border-radius: .5rem;
-  text-transform: uppercase;
-} */
+.footer__img {
+ width: 15rem;
+ height: 15rem;
+ background-image: url('/img/footer.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center; 
+}
+
+.touch, .studio {
+  padding-top: 5rem;
+}
+
+.footer__right {
+  display: flex;
+}
+
+.footer__item-2 {
+  padding-top: 3rem;
+  font-size: 1.3rem;
+}
+
+.footer__remark {
+  padding-left: 5rem;
+}
+
+.footer__copyright {
+ text-align: center;
+}
+
+.copy--right {
+ text-transform: uppercase;
+}
+
+.ps {
+  display: inline-block;
+   padding-left: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Developer Page Styles */
 .learnable__softdesign {

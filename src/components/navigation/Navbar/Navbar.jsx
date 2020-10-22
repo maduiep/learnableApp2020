@@ -22,6 +22,7 @@ const Navbar = ({ hasLinks, activeLink }) => {
 				</nav>
 				<div className="genesys__navbar-right">
 					<span className="build">build a product with</span>
+						&nbsp;&nbsp;
 					<button className="devstudio">
 						<Link to="/">devstudio</Link>
 					</button>
