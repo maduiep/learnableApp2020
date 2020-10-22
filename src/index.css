@@ -1165,7 +1165,7 @@ header li {
 }
 
 /* Subscribe */
-.learnable__subscribe {
+.genesys__subscribe--section {
   width: 100%;
   height: 19rem;
   background-color: var(--saffron-bg-color);
@@ -1224,6 +1224,7 @@ hr {
   border-radius: 0.5rem;
   text-transform: uppercase;
 }
+
 
 /* Footer styles  */
 
@@ -1305,6 +1306,59 @@ hr {
   padding-left: 1.5rem;
 }
 
+/* .genesys__subscribe--section {
+ background-color: var(--cbGreen-bg-color);
+ display: flex;
+ height: 25rem;
+}
+
+.subscribe--arrow-img {
+ width: 10%;
+ height: 100%;
+ background-color: var(--main-bg-color);
+ background-image: url('/img/arrow-up.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center;
+}
+
+.subscribe--text-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe--text {
+  margin-left: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subscribe--email-vpp {
+  margin-left: 15rem;
+  font-size: 1.3rem;
+}
+
+.email-add, .vpp {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+hr {
+  width: 20rem;
+  color: var(--gunMetalbg-bg-color) !important;
+}
+
+.subscribe__button {
+  margin-left: 10rem;
+}
+
+.subscribe--btn {
+  padding: .5rem;
+  background: none;
+  border-radius: .5rem;
+  text-transform: uppercase;
+} */
+
 /* Developer Page Styles */
 .learnable__softdesign {
   width: 100%;
@@ -1335,6 +1389,16 @@ hr {
   background-image: url("/img/cohort.png");
   background-size: cover;
   background-color: var(--cbGreen-bg-color);
+}
+
+.content--img--d {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  margin-right: 5rem;
+  background-image: url("/img/cohort.png");
+  background-size: cover;
+  background-color: var(--vividTang-bg-color);
 }
 
 .softdesign__content-2 {
@@ -1396,7 +1460,6 @@ hr {
   margin-top: 15rem;
   background-image: url("/img/design.png");
   background-size: cover;
-  background-color: var(--cbGreen-bg-color);
 }
 .learnable__softdesign--d {
   width: 100%;

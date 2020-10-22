@@ -7,7 +7,7 @@ const SoftDesign = () => {
         <section className="learnable__softdesign--d">
           <div className="softdesign__content-1">
            <h1>The Learnable <br/> Product <br/> Designer</h1>
-           <div className="content--img"></div>
+           <div className="content--img--d"></div>
           </div>
           <div className="softdesign__content-2">
            <p>
