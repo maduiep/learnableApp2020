@@ -349,7 +349,7 @@ body {
 
 /* genesy subscribe section styles */
 
-.genesys__subscribe--section {
+/* .genesys__subscribe--section {
  background-color: var(--cbGreen-bg-color);
  display: flex;
  height: 25rem;
@@ -400,13 +400,12 @@ hr {
   background: none;
   border-radius: .5rem;
   text-transform: uppercase;
-}
+} */
 
 /* Footer styles */
-.genesys__footer {
+/* .genesys__footer {
  width: 100%;
  height: 35rem;
- /* background-color: orangered; */
 }
 
 .footer__content {
@@ -478,4 +477,4 @@ hr {
   display: inline-block;
    padding-left: 1.5rem;
 }
-
+ */

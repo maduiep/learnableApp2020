@@ -1,20 +1,20 @@
 import React from "react";
 import Navbar from "../../components/navigation/Navbar/Navbar";
 import Nav from "../../components/navigation/Nav/Nav";
-import ApplyPage from "../../components/section/ApplyPage/ApplyPage";
+import Journal from "../../components/section/JournalPage/JournalPage";
 import Subscribe from "../../components/section/Subscribe/Subscribe";
 import Footer from "../../components/section/Footer/Footer";
 
-const Designer = () => {
+const JournalPage = () => {
  return (
   <>
    <Navbar />
    <Nav />
-   <ApplyPage />
+   <Journal />
    <Subscribe />
    <Footer />
   </>
  )
 }
 
-export default Designer;
+export default JournalPage;

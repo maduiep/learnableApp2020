@@ -246,10 +246,403 @@ header .devstudio a {
   background-color: var(---main-bg-color);
 }
 
-.learnable__gathering {
+.everything--header{
+  padding: 2rem 0 2rem 6.5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.everything__text {
+  font-size: 2.5rem;
+}
+
+.everything--header > h1{
+  font-size: 6rem;
+}
+
+.learnable__cirsec {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 25rem;
+  margin-top: -25rem;
+  margin-bottom: -5rem;
+}
+
+.everything--devproduct {
+  display: flex;
+}
+
+.dev {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  background-color: var(--cbGreen-bg-color);
+}
+
+.dev, .product {
+  padding: 6rem 0rem 2rem 3rem;
+}
+
+.dev h1 {
+  text-decoration: underline;
+}
+
+.product h1 {
+  text-decoration: underline;
+}
+
+.product {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background-color: var(--spaceCadet-bg-color);
+  color: var(--main-bg-color)
+}
+
+
+.learnable__ratings {
   width: 100%;
   height: 33.5rem;
+  display: flex;
+  justify-content: space-evenly;
   background-color: var(--grey-bg-color);
+  margin-bottom: -10rem;
+}
+
+.rating {
+  margin-top: 15rem;
+}
+
+.rating h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--cbGreen-bg-color)
+}
+
+.rating p {
+  color: var(--spaceCadet-bg-color);
+  font-size: 1rem;
+}
+
+/* About styles */
+
+.genesys__about--section {
+ width: 100%;
+ height: 65rem;
+}
+
+.about--text-content {
+ padding-top: 7rem;
+ padding-left: 5rem;
+}
+
+.about--text-content h1{
+ font-size: 2.5rem;
+ font-weight: 900;
+ color: var(--spaceCadet-bg-color);
+}
+
+.about--text-content p {
+ padding-top: 1.5rem;
+ font-size: 1.5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.about--image-content {
+ display: flex;
+ padding-top: 2rem;
+}
+
+.about--arrow-img {
+ width: 10%;
+ height: 60vh;
+ background-image: url('/img/arrow-down.png');
+ background-repeat: no-repeat, repeat;
+ background-position: center;
+}
+
+.about--main--img {
+ width: 100%;
+ height: 60vh;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/ladies.png');
+ background-size: cover;
+}
+
+/* Leanrable styles */
+.genesys__learnable--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.genesys__learnable--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.learnable--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/guy.png');
+ background-size: cover;
+}
+
+.learnable--text-content {
+ padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.learnable--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.learnable--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.learnable--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.learnable--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+/* Agora styles */
+.genesys__agora--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: var(--grey-bg-color);
+}
+
+.genesys__agora--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.agora--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/agora.png');
+ background-size: cover;
+}
+
+.agora--text-content {
+ padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.agora--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.agora--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.agora--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.agora--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+/* Startzoe styles */
+
+.genesys__startzone--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.genesys__startzone--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.startzone--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/startzone.png');
+ background-size: cover;
+}
+
+.startzone--text-content {
+ padding-right: 5rem;
+ color: var(--gunMetalbg-bg-color)
+}
+
+.startzone--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.startzone--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.startzone--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.startzone--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+
+/* Other things styles */
+
+.genesys__otherThings--section {
+ width: 100%;
+ height: 50rem;
+ display: flex;
+ justify-content: space-evenly;
+ background-color: var(--grey-bg-color);
+}
+
+.otherThings__boxes {
+  width: 45rem;
+  height: 35.5rem;
+  margin-top: 5rem;
+}
+
+.otherThings__text {
+  width: 45rem;
+  height: 35.5rem;
+  margin-top: 5rem;
+}
+
+.otherThings__text h1 {
+  padding-top: 15rem;
+  font-size: 3.5rem;
+}
+
+.otherThings__boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.box--1 {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  background-image: url('/img/crowd.png');
+  background-size: cover;
+}
+
+.box--2 {
+  width: 15rem;
+  height: 15rem;
+  background-image: url('/img/boy.png');
+  background-size: cover;
+
+}
+
+.box--3 {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  margin-right: 10rem;
+
+}
+
+.box--4 {
+  width: 15rem;
+  height: 15rem;
+  background-image: url('/img/girls.png');
+  background-size: cover;
+}
+
+.box--3 h1 {
+  padding-top: 5rem;
+  text-decoration: underline;
+}
+
+.codeville, .pink {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: initial;
+  color: var( --spaceCadet-bg-color)
+}
+
+/* The Best Team Styles */
+
+.genesys__bestTeam--section {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: var(--spaceCadet-bg-color);
+}
+
+.genesys__bestTeam--section {
+ width: 100%;
+ height: 50rem;
+}
+
+.bestTeam--img {
+ width: 45rem;
+ height: 35.5rem;
+ background-color: var(--grey-bg-color);
+ background-image: url('/img/bestTeam.png');
+ background-size: cover;
+}
+
+.bestTeam--text-content {
+ padding-right: 5rem;
+ color: var(--main-bg-color)
+}
+
+.bestTeam--text-content h1 {
+ font-size: 3rem;
+ font-weight: 600;
+}
+
+.bestTeam--text-content p {
+ font-size: 1.5rem;
+ font-weight: 400;
+ padding-top: 3.5rem;
+ padding-bottom: 2.5rem;
+}
+
+.bestTeam--text-content span {
+ text-decoration: underline;
+ text-decoration-color: none;
+}
+
+.bestTeam--text-content a {
+ color: var(--cbGreen-bg-color);
+ font-size: 1.5rem;
+ font-weight: bold;
 }
 
 /* Making */
@@ -342,6 +735,29 @@ header .devstudio a {
   color: var(--gunMetalbg-bg-color);
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.learnable__imgsection {
+  width: 100%;
+  height:28.75rem;
+  margin-top: -3rem;
+  margin-bottom: -7rem;
+  display: flex;
+}
+
+.imgsection__arrow {
+  width: 10%;
+  height: 100%;
+  background-image: url("/img/arrow-down.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+}
+
+.imgsection__img {
+  width: 90%;
+  height: 100%;
+  background-image: url("/img/ladies.png");
+  background-size: cover;
 }
 
 /* Software Styles */
@@ -1141,7 +1557,80 @@ header .devstudio a {
 }
 
 
+/* Apply Page */
+.learnable__applypage {
+  width: 100%;
+  height: 170rem;   
+}
 
+.applypage__head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.applypage__head h1 {
+  font-size: 5rem;
+  color: var(--spaceCadet-bg-color)
+}
+
+.applypage__image {
+  height: 21rem;
+  width: 35rem;
+  background-image: url("/img/applypage.png");
+  background-size: cover;
+}
+
+.applypagge__text p{
+  padding-left: 10.5rem;
+  font-size: 1.2rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.applypage__main-img {
+  width: 64rem;
+  height: 41rem;
+  margin: 5rem auto;
+  background-image: url("/img/journal-main.png");
+  background-size: cover;
+}
+
+.applypage__contents {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 85rem;
+  margin: 5rem auto;
+  margin-bottom: -15rem;
+}
+
+.contents__text {
+  margin-left: 5rem;
+}
+
+.contents__text h1 p {
+  color: var(--spaceCadet-bg-color);
+}
+
+.contents__text h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contents__text h5 {
+   font-size: 1.5rem;
+   text-decoration: underline;
+   padding-top: .5rem;
+   padding-bottom: 1rem;
+   color: var(--cbGreen-bg-color);
+}
+
+.contents__text p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
 
 /* Faq */
 
@@ -1157,6 +1646,110 @@ header .devstudio a {
   padding-top: 5rem;
   padding-left: 15rem;
   color: var(--gunMetal-bg-color);
+}
+
+/* Journal Page */
+.learnable__JournalPage {
+  width: 100%;
+  height: 175rem;
+}
+
+.Journal__head {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 83.5rem;
+  height: 27rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--grey-bg-color);
+}
+
+.Journal__head h1 {
+  font-size: 5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.JournalPage__inspiration {
+  width: 83.5rem;
+  height: 37rem;
+  margin: -5rem auto;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Journal__head button {
+  border-radius: 0.25rem;
+  border: solid 1px var(--spaceCadet-bg-color);
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 1;
+  font-size: 1.2rem;
+  padding: .5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.Journal__down-btn {
+ display: flex;
+ align-items: center;
+}
+
+
+.Journal__down-btn button{
+  text-align: center;
+  border-radius: 0.25rem;
+  border: solid 1px var(--spaceCadet-bg-color);
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 1;
+  font-size: 1rem;
+  padding: .3rem;
+  color: var(--spaceCadet-bg-color);
+  margin: 5rem auto;
+}
+
+.inspiration__image {
+  width: 45rem;
+  height: 32rem;
+ background-image: url("/img/journal-main.png");
+  background-size: cover;
+}
+
+.inspiration__text {
+  margin-top: 3rem;
+}
+
+.inspiration__text h5{
+  font-size: 1rem;
+  color: var( --cbGreen-bg-color);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.inspiration__text h1 {
+  font-size: 1.8rem;
+  color: var(--spaceCadet-bg-color);
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.inspiration__text p {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  color: var(--spaceCadet-bg-color);
+}
+
+.inspiration__sm {
+  display: flex;
+}
+
+.inspiration__sm p {
+  color: var(--spaceCadet-bg-color);
+  padding: 1rem 0 0 1rem;
+}
+
+.journal__content {
+  margin-top: 5rem;
 }
 
 /* journal */
@@ -1356,6 +1949,7 @@ header .devstudio a {
 
 .subscribe--text-content h1 {
   font-size: 2.5rem;
+  text-transform: capitalize;
 }
 
 .subscribe--email-vpp {

@@ -15,7 +15,10 @@ import Design from "../../components/section/Design/Design";
 import Software from "../../components/section/Software/Software";
 import ComingSoon from "../../components/section/ComingSoon/ComingSoon";
 import Everything from "../../components/section/Everything/Everything";
+import Circle from "../../components/section/Circle/circle";
+import Imgsection from "../../components/section/Imgsection/imgsection";
 import Gathering from "../../components/section/Gathering/Gathering";
+import Making from "../../components/section/Making/Making";
 import Experience from "../../components/section/Experience/Experience";
 import FAQ from "../../components/section/FAQ/FAQ";
 
@@ -26,7 +29,10 @@ const Learnable = () => {
       <Nav />
       <ComingSoon />
       <Everything />
+      <Circle />
+      <Imgsection />
       <Gathering />
+      <Making />
       <Experience />
       <Software />
       <Design />

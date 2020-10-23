@@ -4,6 +4,7 @@ import Footer from "../../components/section/Footer/Footer";
 import Subscribe from "../../components/section/Subscribe/Subscribe";
 import Learnable from "../../components/section/Learnable/Learnable";
 import Agora from "../../components/section/Agora/Agora";
+import About from "../../components/section/About/About";
 import StartZone from "../../components/section/StartZone/StartZone";
 import BestTeam from "../../components/section/BestTeam/BestTeam";
 import OtherThings from "../../components/section/OtherThings/OtherThings";
@@ -13,6 +14,7 @@ const Homepage = () => {
     <>
       <Navbar />
       <main className="genesys__main--content">
+        <About />
         <Learnable />
         <Agora />
         <StartZone />
