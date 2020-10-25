@@ -1,27 +1,40 @@
 import React from "react";
 import Navbar from "../../components/navigation/Navbar/Navbar";
-import Footer from "../../components/section/Footer/Footer";
-import HomeSubscribe from "../../components/section/HomeSubs/HomeSubs";
-import Learnable from "../../components/section/Learnable/Learnable";
-import Agora from "../../components/section/Agora/Agora";
-import About from "../../components/section/About/About";
-import StartZone from "../../components/section/StartZone/StartZone";
-import BestTeam from "../../components/section/BestTeam/BestTeam";
-import OtherThings from "../../components/section/OtherThings/OtherThings";
+import Footer from "../../components/sections/Footer/Footer";
+import HomeSubscribe from "../../components/sections/HomeSubs/HomeSubs";
+import Learnable from "../../components/sections/Learnable/Learnable";
+import Agora from "../../components/sections/Agora/Agora";
+import About from "../../components/sections/About/About";
+import StartZone from "../../components/sections/StartZone/StartZone";
+import BestTeam from "../../components/sections/BestTeam/BestTeam";
+import OtherThings from "../../components/sections/OtherThings/OtherThings";
+import Section from "../../components/section/Section";
 
 const Homepage = () => {
   return (
     <>
       <Navbar />
-      <main className="genesys__main--content">
+      <Section id="about">
         <About />
+      </Section>
+      <Section id="learnable">
         <Learnable />
+      </Section>
+      <Section id="agora">
         <Agora />
+      </Section>
+      <Section id="startZone">
         <StartZone />
+      </Section>
+      <Section id="otherThings">
         <OtherThings />
+      </Section>
+      <Section id="bestTeam">
         <BestTeam />
+      </Section>
+      <Section id="homeSubscribe">
         <HomeSubscribe />
-      </main>
+      </Section>
       <Footer />
     </>
   );
