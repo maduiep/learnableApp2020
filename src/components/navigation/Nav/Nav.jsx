@@ -9,11 +9,11 @@ const Nav = ({ hasLinks, activeLink }) => {
 				{ hasLinks && (
 					<ul>
 						<li className={activeLink === 'Home' ? 'active' : ''}><Link to="/">home</Link></li>
-						<li className={activeLink === 'software developers' ? 'active' : ''}><Link to="/">software developers</Link></li>
-						<li className={activeLink === 'product designers' ? 'active' : ''}><Link to="/">product designers</Link></li>
-						<li className={activeLink === 'apply' ? 'active' : ''}><Link to="/">apply</Link></li>
-						<li className={activeLink === 'journal' ? 'active' : ''}><Link to="/">journal</Link></li>
-						<li className={activeLink === 'faq' ? 'active' : ''}><Link to="/">faq</Link></li>
+						<li className={activeLink === 'developer' ? 'active' : ''}><Link to="/developer">software developers</Link></li>
+						<li className={activeLink === 'designer' ? 'active' : ''}><Link to="/designer">product designers</Link></li>
+						<li className={activeLink === 'apply' ? 'active' : ''}><Link to="/apply">apply</Link></li>
+						<li className={activeLink === 'journal' ? 'active' : ''}><Link to="/journal">journal</Link></li>
+						<li className={activeLink === 'faq' ? 'active' : ''}><Link to="#">faq</Link></li>
 					</ul>
 					)}
 			</nav>
