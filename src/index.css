@@ -1920,6 +1920,13 @@ header .devstudio a {
   display: flex;
 }
 
+.genesys__subscribe--section-home {
+  width: 100%;
+  height: 19rem;
+  display: flex;
+  background-color: var(--cbGreen-bg-color);
+}
+
 .subscribe--arrow-img {
   width: 10%;
   height: 100%;

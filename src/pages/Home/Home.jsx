@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navigation/Navbar/Navbar";
 import Footer from "../../components/section/Footer/Footer";
-import Subscribe from "../../components/section/Subscribe/Subscribe";
+import HomeSubscribe from "../../components/section/HomeSubs/HomeSubs";
 import Learnable from "../../components/section/Learnable/Learnable";
 import Agora from "../../components/section/Agora/Agora";
 import About from "../../components/section/About/About";
@@ -20,7 +20,7 @@ const Homepage = () => {
         <StartZone />
         <OtherThings />
         <BestTeam />
-        <Subscribe />
+        <HomeSubscribe />
       </main>
       <Footer />
     </>

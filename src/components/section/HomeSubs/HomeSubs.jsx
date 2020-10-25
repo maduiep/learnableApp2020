@@ -1,0 +1,26 @@
+import React from 'react';
+
+const HomeSubscribe = () => {
+	return (
+		<>
+			<section className="genesys__subscribe--section-home">
+				<div className="subscribe--arrow-img"></div>
+				<div className="subscribe--text-content">
+					<div className="subscribe--text">
+						<h1>Stay up to date on what we <br/> are doing and new learning  <br/> opportunities</h1>
+					</div>
+					<div className="subscribe--email-vpp">
+						<p className="email-add">Your email</p>
+						<hr/>
+						<p className="vpp">View Privacy Policy</p>
+					</div>
+					<div className="subscribe__button">
+						<button className="subscribe--btn">subscribe</button>
+					</div>
+				</div>
+			</section>
+		</>
+	);
+};
+
+export default HomeSubscribe;
