@@ -12,11 +12,11 @@ const Navbar = ({ hasLinks, activeLink }) => {
 				<nav className="genesys__navbar">
 					{hasLinks && (
 					<ul className="navbar-items-1">
-						<li className={activeLink === 'learnable' ? 'active' : ''}><Link to="/learnable">learnable</Link></li>
-						<li className={activeLink === 'agora' ? 'active' : ''}><Link to="/agora">agora</Link></li>
-						<li className={activeLink === 'zone' ? 'active' : ''}><Link to="/zone">start zone</Link></li>
-						<li className={activeLink === 'about' ? 'active' : ''}><Link to="/about">about</Link></li>
-						<li className={activeLink === 'contact' ? 'active' : ''}><Link to="/contact">contact</Link></li>
+						<li><Link to="#">learnable</Link></li>
+						<li><Link to="#">agora</Link></li>
+						<li><Link to="#">start zone</Link></li>
+						<li><Link to="#">about</Link></li>
+						<li><Link to="#">contact</Link></li>
 					</ul>
 					)}
 				</nav>
@@ -24,7 +24,7 @@ const Navbar = ({ hasLinks, activeLink }) => {
 					<span className="build">build a product with</span>
 						&nbsp;&nbsp;
 					<button className="devstudio">
-						<Link to="/">devstudio</Link>
+						<Link to="#">devstudio</Link>
 					</button>
 				</div>
 			</header>

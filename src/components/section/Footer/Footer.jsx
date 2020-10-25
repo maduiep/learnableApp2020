@@ -10,10 +10,10 @@ const Footer = ({ hasLinks, activeLink }) => {
 					<div className="footer__left">
 						{ hasLinks && (
 							<ul className="footer__link-1">
-								<li className={activeLink === 'build' ? 'active' : ''}><Link to="/" className="footer__link">build software</Link></li>
-								<li className={activeLink === 'design' ? 'active' : ''}><Link to="/" className="footer__link">design different</Link></li>
-								<li className={activeLink === 'apply' ? 'active' : ''}><Link to="/" className="footer__link">apply your knowledge</Link></li>
-								<li className={activeLink === 'faq' ? 'active' : ''}><Link to="/" className="footer__link">faq</Link></li>
+								<li className={activeLink === 'build' ? 'active' : ''}><Link to="/developer" className="footer__link">build software</Link></li>
+								<li className={activeLink === 'design' ? 'active' : ''}><Link to="/designer" className="footer__link">design different</Link></li>
+								<li className={activeLink === 'apply' ? 'active' : ''}><Link to="/apply" className="footer__link">apply your knowledge</Link></li>
+								<li className={activeLink === 'faq' ? 'active' : ''}><Link to="#" className="footer__link">faq</Link></li>
 							</ul>
 						)}
 					</div>

@@ -15,7 +15,7 @@ const Learnable = () => {
             <br /> industry. Find out how Genesys is helping them do it.
           </p>
           <span>
-            <Link to="/" className="learn-more">
+            <Link to="/learnable" className="learn-more">
               learn more
             </Link>
           </span>
