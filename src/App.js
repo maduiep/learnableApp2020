@@ -1,18 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+// pages import
 import HomePage from "./pages/Home/Home";
 import LearnablePage from "./pages/Learnable/Learnable";
 import DeveloperPage from "./pages/Developer/Developer";
 import DesignerPage from "./pages/Designer/Designer";
 import JournalPage from "./pages/JournalPage/JournalPage";
 import ApplyPage from "./pages/Apply/Apply";
-import ApplyPage from "./pages/Faq/Faq";
-import FAQ from './components/section/FAQ/FAQ';
-
-
-
-// pages import
+import FAQPage from "./pages/Faq/Faq";
 
 const App = () => {
     return (
@@ -22,7 +18,7 @@ const App = () => {
                     <Route path="/" exact component={HomePage} />
                     <Route path="/learnable" component={LearnablePage} />
                     <Route path="/apply" component={ApplyPage} />
-                    <Route path="/faq" component={FAQ} />
+                    <Route path="/faq" component={FAQPage} />
                     <Route path="/journal" component={JournalPage} />
                     <Route path="/designer" component={DesignerPage} />
                     <Route path="/developer" component={DeveloperPage} />

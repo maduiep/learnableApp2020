@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import classNames from "classnames";
+import React from "react";
 import "./FAQ.styles.css";
 
 const FAQ = () => {
