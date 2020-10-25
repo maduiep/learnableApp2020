@@ -8,6 +8,7 @@ import DesignerPage from "./pages/Designer/Designer";
 import JournalPage from "./pages/JournalPage/JournalPage";
 import ApplyPage from "./pages/Apply/Apply";
 import ApplyPage from "./pages/Faq/Faq";
+import FAQ from './components/section/FAQ/FAQ';
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
                     <Route path="/" exact component={HomePage} />
                     <Route path="/learnable" component={LearnablePage} />
                     <Route path="/apply" component={ApplyPage} />
-                    <Route path="/faq" component={Faq} />
+                    <Route path="/faq" component={FAQ} />
                     <Route path="/journal" component={JournalPage} />
                     <Route path="/designer" component={DesignerPage} />
                     <Route path="/developer" component={DeveloperPage} />
