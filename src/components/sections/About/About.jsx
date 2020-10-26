@@ -1,4 +1,10 @@
 import React from 'react';
+import {animateScroll as scroll } from "react-scroll";
+
+const scrollToBottom = () => {
+  scroll.scrollToBottom();
+};
+
 
 const About = () => {
 	return (
@@ -13,7 +19,7 @@ const About = () => {
 					</p>
 				</div>
 				<div className="about--image-content">
-					<div className="about--arrow-img"></div>
+					<div className="about--arrow-img" onClick={scrollToBottom}></div>
 					<div className="about--main--img"></div>
 				</div>
 			</section>

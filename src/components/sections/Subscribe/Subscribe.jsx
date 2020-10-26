@@ -1,10 +1,16 @@
 import React from 'react';
+import {animateScroll as scroll } from "react-scroll";
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
+
 
 const Subscribe = () => {
 	return (
 		<>
 			<section className="genesys__subscribe--section">
-				<div className="subscribe--arrow-img"></div>
+				<div className="subscribe--arrow-img" onClick={scrollToTop}></div>
 				<div className="subscribe--text-content">
 					<div className="subscribe--text">
 						<h1>Stay up to date on what we <br/> are doing and new learning  <br/> opportunities</h1>
