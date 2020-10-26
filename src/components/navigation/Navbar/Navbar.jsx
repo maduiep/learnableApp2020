@@ -6,7 +6,7 @@ const scrollToTop = () => {
   scroll.scrollToTop();
 };
 
-const Navbar = ({ hasLinks }) => {
+function Navbar({ hasLinks }) {
   return (
     <>
       <header className="genesys__header">
@@ -15,8 +15,7 @@ const Navbar = ({ hasLinks }) => {
             className="logo"
             src="/img/logo.png"
             alt="Genesys logo"
-            onClick={scrollToTop}
-          />
+            onClick={scrollToTop} />
         </div>
         <nav className="genesys__navbar">
           {hasLinks && (
@@ -86,7 +85,7 @@ const Navbar = ({ hasLinks }) => {
         </nav>
         <div className="genesys__navbar-right">
           <span className="build">build a product with</span>
-          &nbsp;&nbsp;
+          &nbsp; &nbsp;
           <button className="devstudio">
             <Link to="#">devstudio</Link>
           </button>
@@ -94,7 +93,7 @@ const Navbar = ({ hasLinks }) => {
       </header>
     </>
   );
-};
+}
 
 Navbar.defaultProps = {
   hasLinks: true,

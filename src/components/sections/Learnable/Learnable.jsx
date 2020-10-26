@@ -6,7 +6,7 @@ const Learnable = () => {
     <>
       <section className="genesys__learnable--section">
         <div className="learnable--img"></div>
-
+        
         <div className="learnable--text-content">
           <h1 className="learnable--main-text">Learnable</h1>
           <p className="learnable-sub-text">
