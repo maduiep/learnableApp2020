@@ -8,7 +8,7 @@ import DeveloperPage from "./pages/Developer/Developer";
 import DesignerPage from "./pages/Designer/Designer";
 import JournalPage from "./pages/JournalPage/JournalPage";
 import ApplyPage from "./pages/Apply/Apply";
-import FAQPage from "./pages/Faq/Faq";
+import FAQ from "./pages/Faq/Faq";
 
 const App = () => {
     return (
@@ -18,7 +18,7 @@ const App = () => {
                     <Route path="/" exact component={HomePage} />
                     <Route path="/learnable" component={LearnablePage} />
                     <Route path="/apply" component={ApplyPage} />
-                    <Route path="/faq" component={FAQPage} />
+                    <Route path="/FAQ" component={FAQ} />
                     <Route path="/journal" component={JournalPage} />
                     <Route path="/designer" component={DesignerPage} />
                     <Route path="/developer" component={DeveloperPage} />
